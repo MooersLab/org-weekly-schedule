@@ -1,3 +1,7 @@
+![Version](https://img.shields.io/static/v1?label=org-weekly-schedule&message=0.1.0&color=brightcolor)
+
+
+
 # org-weekly-schedule
 
 Build weekly time-block schedule tables inside Emacs Org mode.
@@ -254,3 +258,17 @@ org-weekly-schedule/
 
 GNU General Public License v3.0 or later.  See the file headers for
 the full license text.
+
+## Update table
+
+
+| Version | Changes                                                                                                                | Date              |
+|:---------|:------------------------------------------------------------------------------------------------------------------------|:-------------------|
+|   0.1.0   | Initiate project. Added badges, funding, and this update table.                                                        | 2026 March 15 |
+
+## Sources of funding
+
+- NIH: R01 CA242845
+- NIH: R01 AI088011
+- NIH: P30 CA225520 (PI: R. Mannel)
+- NIH: P20 GM103640 and P30 GM145423 (PI: A. West)
