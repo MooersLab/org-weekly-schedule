@@ -39,6 +39,13 @@ Clone or download this repository, then add the directory to your
 ```elisp
 (add-to-list 'load-path "/path/to/org-weekly-schedule")
 (require 'org-weekly-schedule)
+
+(with-eval-after-load 'org
+  (define-key org-mode-map (kbd "C-c t i") #'org-weekly-schedule-insert)
+  (define-key org-mode-map (kbd "C-c t w") #'org-weekly-schedule-build-week)
+  (define-key org-mode-map (kbd "C-c t a") #'org-weekly-schedule-append-column)
+  (define-key org-mode-map (kbd "C-c t d") #'org-weekly-schedule-append-day)
+  (define-key org-mode-map (kbd "C-c t h") #'org-weekly-schedule-add-date-header))
 ```
 
 ### use-package
